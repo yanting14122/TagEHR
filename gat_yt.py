@@ -11,7 +11,7 @@ import numpy as np
 
 
 
-## UTILS ###################################################################################
+## UTILS ##################################################################################
 def get_edge_relation_index(G):
     edge_index = []
     edge_type = {'rel': np.zeros((G.number_of_edges())), 'hierarchy': np.zeros((G.number_of_edges()))}
